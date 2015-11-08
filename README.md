@@ -1,5 +1,5 @@
-# Meteor Webpack basic counter
+# Meteor + Webpack + React Router, with code splitting
 
-This is about the most barebones possible app you can build using Meteor and Webpack. This has a minimal amount of boilerplate to make it easier to understand.
+This is the most basic app you can build with React Router and code splitting. For a more barebones example, check out this article on [Medium](https://medium.com/@SamCorcos/meteor-webpack-from-the-ground-up-f123288c7b75).
 
-More information about this can be found on [Medium](https://medium.com/@SamCorcos/meteor-webpack-from-the-ground-up-f123288c7b75).
+More information about this repo can be found [here](google.com);
