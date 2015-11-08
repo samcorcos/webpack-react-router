@@ -1,8 +1,5 @@
 module.exports = {
   entry: './entry',
-  resolve: {
-    extensions: ['', '.js', '.jsx', '.json']
-  },
   module: {
     loaders: [
       { test: /\.jsx?$/,
