@@ -3,8 +3,6 @@ import ReactDOM from "react-dom";
 import { Router, Route, Link, IndexRoute } from "react-router";
 import createBrowserHistory from 'history/lib/createBrowserHistory';
 
-let history = createBrowserHistory()
-
 // Components
 import Home from "Home/routes";
 import Settings from "Settings/routes";
@@ -30,6 +28,6 @@ const rootRoute = {
 }
 
 ReactDOM.render(
-  <Router history={history} routes={rootRoute} />,
+  <Router history={createBrowserHistory()} routes={rootRoute} />,
   document.getElementById("app")
 )
