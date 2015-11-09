@@ -4,4 +4,4 @@ This is the most basic app you can build with React Router and code splitting. F
 
 ![Code split example](/split.gif)
 
-More information about this repo can be found [here](google.com);
+More information about this repo can be found [here](https://medium.com/@SamCorcos/ac2f95d151e2);
