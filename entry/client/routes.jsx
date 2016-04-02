@@ -27,7 +27,10 @@ const rootRoute = {
   }]
 }
 
-ReactDOM.render(
-  <Router history={createBrowserHistory()} routes={rootRoute} />,
-  document.getElementById("app")
-)
+
+Meteor.startup(function () {
+  ReactDOM.render(
+    <Router history={createBrowserHistory()} routes={rootRoute} />,
+    document.getElementById("app")
+  )
+})

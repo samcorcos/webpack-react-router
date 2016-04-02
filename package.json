@@ -1,0 +1,22 @@
+{
+  "name": "webpack-react-router",
+  "private": true,
+  "main": "entry/server/entry.jsx",
+  "browser": "entry/client/entry.jsx",
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "history": "^1.12.0",
+    "react-router": "^1.0.0-rc4"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.12.14",
+    "webpack-hot-middleware": "^2.4.1",
+    "url-loader": "^0.5.7",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.0",
+    "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^0.9.1"
+  }
+}
